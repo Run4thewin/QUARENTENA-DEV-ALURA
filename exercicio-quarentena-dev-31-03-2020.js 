@@ -1,0 +1,43 @@
+//ALERT NOVAMENT
+alert("Quarentena DEV #2 - Dia 31/03/2020")
+
+//PROMPT - CRIA UMA ABA PARA INSERIR TEXTO
+prompt()
+
+//PROMPT COM MENSAGEM
+prompt("Informe sua idade")
+
+//PROMPT COM CAUCULO DE DIAS BASEADO NA IDADE DO USUARIO DIRETO DO RETORNO DO PROMPT
+promt("Informe sua idade") * 365
+
+//ALERTA COM DADO DO PROMPT JUNTO COM VALOR RETORNADO DO PROMPT * 365 DIAS
+alert(promt("Informe sua idade") * 365, 'Digite sua idade')
+
+//ESCREVENDO NA PAGINA WEB
+document.write("Escrevendo na pagina");
+document.write("Ola mundo");
+
+//ESCREVENDO NA PAGINA WEB
+document.write("Escrevendo na pagina");
+document.write("Ola mundo");
+
+//ESCREVENDO NA TELA COM DADO DO PROMPT JUNTO COM VALOR RETORNADO DO PROMPT * 365 DIAS
+document.write(promt("Informe sua idade") * 365)
+
+//JUNTANDO RETORNO DA IDADE COM A PALAVRA "ANOS" PARA APARECER NA TELA
+document.write(promt("Informe sua idade"), ' Anos')
+
+//JUNTANDO RETORNO DE DIAS VIVIDOS COM A PALAVRA "DIAS" PARA APARECER NA TELA
+document.write(promt("Informe sua idade"), ' Dias')
+
+//VARIAVEL FIXA
+suaidade = 23
+
+//ESCREVENDO A VARIAVEL ACIMA EM UMA FRASE NA TELA
+document.write(suaidade*365, ' Dias')
+
+//GUARDANDO IDADE EM UMA VARIAVEL
+suaidade = prompt("Informe sua idade")
+
+//UTILIZANDO OS DOIS DADOS ACIMA PARA CRIAR UMA FRASE COMPLETA
+document.write(suaidade, " Anos ", suaidade*365, " Dias")
