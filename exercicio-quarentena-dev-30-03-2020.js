@@ -1,8 +1,13 @@
+//============================NOTA=====================//
+// "VAR" É A PALAVRA RESERVADA USADA PARA INDICAR A INICIALIZACAO DE UMA VARIVAVEL
+// CASO AINDA NÃO FOI VISTO, SERÁ VISTO EM BREVE
+//============================NOTA=====================//
+
 // DECLARACAO DA MINHA IDADE
-idade = 22;
+var idade = 22;
 
 //QUANTIDADE DE DIAS DE VIDA
-diasDeVida = 22 * 365;
+var diasDeVida = 22 * 365;
 
 // ALERT
 alert("Ola mundi");
@@ -22,14 +27,14 @@ alert("Ola, a quanrentena DEV começou")
 
 
 // ==================== DESAFIO ==================== //  
-batimentoPorMinuto = 75;
-minutos = 60  ;
-horas = 24;
-diasNoAno = 365;
-idade = 2;
+var batimentoPorMinuto = 75;
+var minutos = 60  ;
+var horas = 24;
+var diasNoAno = 365;
+var idade = 2;
 
 //CALCULAR QUANTIDADE DE BATIMENTOS
-totalDeBatimentos = batimentoPorMinuto * minutos * horas * diasNoAno * idade;
+var totalDeBatimentos = batimentoPorMinuto * minutos * horas * diasNoAno * idade;
 
 //ALERTA O RESULTADO
 alert("Eu tenho " + idade + " anos e meus batimentos foram " + totalDeBatimentos)
